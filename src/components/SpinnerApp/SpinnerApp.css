@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+
+
+.spinner-app-home {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background-color: #7140FF;
+    
+}
+
+.cornerLogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 120px;
+    width: auto;
+}
+
+.circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 32px;
+    top: 184px;
+    background-color: #7CD8C7;
+    border-radius: 50%;
+    z-index: 2;
+}   
+/* @keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(780deg);}
+} */
+
+.arrowSpin {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    /* transform: rotate(90deg); */
+    transition: all 0.02s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;  */
+    /* animation-iteration-count: 2;  */
+    /* animation-timing-function: linear; */
+    
+}
+.arrowStop {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.02s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-name: spin;
+    animation-duration: 500ms;
+    /* animation-iteration-count: infinite;  */
+    /* animation-iteration-count: 2;  */
+    animation-timing-function: linear;
+    
+}
+
+
+
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 77px;
+    top: 605px;
+}
+
+
+
+
+
+button {
+    position: relative;
+    width: 221px;
+    height: 59px;
+    /* left: 77px;
+    top: 605px; */
+
+    background: #7CD8C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+
+    font-family: 'Squada One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: normal;
+    text-align: center;
+
+    color: #7140FF;
+}
+
