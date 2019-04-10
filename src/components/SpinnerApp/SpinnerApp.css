@@ -23,10 +23,21 @@
     height: 300px;
     left: 32px;
     top: 184px;
-    background-color: #7CD8C7;
+    /* background-color: #7CD8C7; */
     border-radius: 50%;
     z-index: 2;
 }   
+
+.pieChart {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 32px;
+    top: 184px;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+
+}
 /* @keyframes spin {
     0% { transform: rotate(0deg);}
     100% {transform: rotate(780deg);}
@@ -35,7 +46,7 @@
 .arrowSpin {
     width: 50%;
     height: 6px;
-    background: black;
+    background: whitesmoke;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
@@ -47,6 +58,9 @@
     animation-iteration-count: infinite;  */
     /* animation-iteration-count: 2;  */
     /* animation-timing-function: linear; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    z-index: 0;
     
 }
 .arrowStop {
@@ -67,7 +81,17 @@
     
 }
 
-
+.arrowDot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: whitesmoke;
+    position: absolute;
+    top: 46%;
+    left: 45%;
+    transform-origin: 50%;
+    z-index: 1;
+}
 
 .buttons {
     position: absolute;
